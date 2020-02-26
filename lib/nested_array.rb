@@ -32,7 +32,7 @@ def sorted_matrix
   organic_sorted = ORGANIC_PRODUCE.sort
   produce_storage = Array.new(conventional_sorted)
 produce_storage.push(organic_sorted)
-puts produce_storage
+produce_storage
 end
 
 def matrix_lookup(matrix, row, column)
